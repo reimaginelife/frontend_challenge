@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-  border-top:3px solid black;
+  border-top:1.25px solid black;
   width: 400px;
   background-color: #45be32;
   padding: 25px 10px 20px 10px;
