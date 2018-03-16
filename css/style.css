@@ -9,7 +9,7 @@ body {
 .container {
  width:420px;
  background-color: #fff;
- padding-bottom: 15px;
+ padding: 15px 0px 15px 0px;
 }
 
 .content {
@@ -21,22 +21,50 @@ body {
 }
 .list {
   display: inline-block;
-  height: 60
-  overflow:scroll;
+  height: 620px;
+  overflow: scroll;
+}
+
+.noservice {
+  background-color: #999;
+  color: #666666;
+
+}
+
+.reroute {
+  background-color: #e57c04;
 }
 
 .time{
+  width:20%;
   float: right;
 }
 
+.noservice h2 {
+  font-weight: 550;
+  font-style: oblique;
+}
+
+.noservice h5{
+  font-size: 20px;
+  color:white;
+  font-style: normal;
+}
+
+.noservice h6{
+  font-size: 16px;
+  color: white
+}
+
 h5{
-  font-size: 42px;
+  font-size: 32px;
   line-height: 15px;
   display: block;
 }
 
-h6{
-  font size: 18px;
+h6 {
+  font-size: 24px;
+  line-height: 15px;
 }
 
 h1{
@@ -44,6 +72,7 @@ h1{
   line-height: 40px;
   display: block;
   float:left;
+  width: 30%;
 }
 
 
