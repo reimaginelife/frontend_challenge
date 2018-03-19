@@ -4,46 +4,51 @@ body {
   width:420px;
   height: 480px;
   font-size: 16px;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: 'Ubuntu';
 
 }
 
+aside{
+  borr:1px solid red;
+  width: 120px;
+  height:66px;
+  padding: 25px 0px 0px 0px;
+  float: right;
+  position: relative;
+  background-color: #13BD5B;
+  color:white;
+}
+
 .container {
- width:420px;
+ width:375px;
  background-color: #fff;
  padding: 15px 0px 15px 0px;
 }
 
 .content {
-  border-top:1.25px solid black;
-  width: 400px;
-  background-color: #45be32;
-  padding: 15px 10px 15px 10px;
-  color: white;
+  border-top:3px solid white;
+  width: 355px;
+  background-color: #EDF0EE;
+  padding: 0px 0px 5px 20px;
+  color: black;
 }
 
-.scroll{
+
+.list{
   overflow: scroll;
-  height: 650px;
+  height: 400px;
 }
 
-.list {
-  display: inline-block;
-}
 
 .noservice {
   background-color: #999;
-  color: #666666;
-
+  color: #444;
 }
+
 
 .reroute {
   background-color: #e57c04;
-}
-
-.time{
-  width:20%;
-  float: right;
+  font-style:oblique;
 }
 
 .noservice h2 {
@@ -58,33 +63,27 @@ body {
 }
 
 .noservice h6{
-  font-size: 16px;
-  color: white
+  color:white;
 }
 
 
+
 h1{
-  padding-top:15px;
-  font-size: 48px;
-  line-height: 15px;
-  display: block;
-  float:left;
-  width: 25%;
+  padding: 5px 0px 5px 0px;
+  font-size: 24px;
+  font-weight:600;
 }
 
 
 h2 {
-  font-size: 18px;
-  line-height: 1.5em;
   letter-spacing: 0.75px;
-  font-weight: 400;
+  padding-top: 10px;
 }
 
 h3{
-  font-size: .9em;
-  line-height: .9em;
-  letter-spacing: .5px;
-  font-weight: lighter;
+  padding-bottom:10px;
+  letter-spacing: .25px;
+  font-weight: 100;
 }
 
 h4{
@@ -99,6 +98,7 @@ h5{
 }
 
 h6 {
+  padding-top:15px;
   font-size: 18px;
   line-height: 15px;
 }
