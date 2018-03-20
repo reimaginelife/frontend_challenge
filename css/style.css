@@ -8,6 +8,7 @@ body {
 
 }
 
+
 aside{
   width: 120px;
   height:66px;
@@ -16,7 +17,22 @@ aside{
   position: relative;
   background-color: #13BD5B;
   color:white;
+  text-align:center;
 }
+
+.map {
+  height: auto;
+  width:375px;
+  margin:0px;
+}
+
+.arrow {
+  height: 20px;
+  float:left;
+  padding-left: 10px;
+  position:absolute;
+}
+
 
 .container {
  width:375px;
