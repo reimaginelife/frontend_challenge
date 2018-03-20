@@ -6,6 +6,19 @@ body {
   font-family: Helvetica, arial, sans-serif;
 }
 
+.arrow {
+  height:20;
+  float:left;
+  padding:10px;
+  position: absolute;
+}
+
+.map {
+  height: auto;
+  width: 375px;
+  margin: 0px;
+}
+
 .container {
  width:420px;
  background-color: #fff;
