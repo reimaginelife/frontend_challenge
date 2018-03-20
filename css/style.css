@@ -2,55 +2,69 @@ body {
   margin:auto;
   background-color: #3e3e3e;
   width:420px;
+  height: 480px;
   font-size: 16px;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
-.arrow {
-  height:20;
-  float:left;
-  padding:10px;
-  position: absolute;
+
+aside{
+  width: 120px;
+  height:66px;
+  padding: 25px 0px 0px 0px;
+  float: right;
+  position: relative;
+  background-color: #13BD5B;
+  color:white;
+  text-align:center;
 }
 
 .map {
   height: auto;
-  width: 375px;
-  margin: 0px;
+  width:375px;
+  margin:0px;
 }
 
+.arrow {
+  height: 20px;
+  float:left;
+  padding-left: 10px;
+  position:absolute;
+}
+
+
 .container {
- width:420px;
+ width:375px;
  background-color: #fff;
  padding: 15px 0px 15px 0px;
 }
 
 .content {
-  border-top:1.25px solid black;
-  width: 400px;
-  background-color: #45be32;
-  padding: 25px 10px 20px 10px;
-  color: white;
+  border-top:3px solid white;
+  width: 355px;
+  background-color: #EDF0EE;
+  padding: 0px 0px 5px 20px;
+  color: black;
 }
-.list {
-  display: inline-block;
-  height: 620px;
+
+
+.list{
   overflow: scroll;
+  width:375px;
+  height: 400px;
 }
+
 
 .noservice {
   background-color: #999;
-  color: #666666;
-
+  color: #444;
 }
+
 
 .reroute {
   background-color: #e57c04;
-}
-
-.time{
-  width:20%;
-  float: right;
+  font-style:oblique;
 }
 
 .noservice h2 {
@@ -65,8 +79,35 @@ body {
 }
 
 .noservice h6{
-  font-size: 16px;
-  color: white
+  color:white;
+}
+
+.status {
+  height:auto;
+  width:375px;
+}
+
+h1{
+  padding: 5px 0px 5px 0px;
+  font-size: 24px;
+  font-weight:600;
+}
+
+
+h2 {
+  letter-spacing: 0.75px;
+  padding-top: 10px;
+}
+
+h3{
+  padding-bottom:10px;
+  letter-spacing: .25px;
+  font-weight: 100;
+}
+
+h4{
+  font-size: 20px;
+  color: #45be45;
 }
 
 h5{
@@ -76,39 +117,7 @@ h5{
 }
 
 h6 {
-  font-size: 24px;
-  line-height: 15px;
-}
-
-h1{
-  font-size: 60px;
-  line-height: 40px;
-  display: block;
-  float:left;
-  width: 30%;
-}
-
-
-h2 {
-  padding-left: 10px;
-  display:inline;
-  float:inherit;
+  padding-top:15px;
   font-size: 18px;
-  line-height: 1.5em;
-  letter-spacing: 0.75px;
-  font-weight: 400;
-}
-
-h3{
-  padding-left: 10px;
-  display:inline;
-  font-size: .9em;
-  line-height: .9em;
-  letter-spacing: .5px;
-  font-weight: lighter;
-}
-
-h4{
-  font-size: 20px;
-  color: #45be45;
+  line-height: 15px;
 }
