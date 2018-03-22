@@ -51,7 +51,7 @@ nav {
 
 .list{
   overflow: scroll;
-  overflow-x: hidden:
+  overflow-x: hidden;
   width:375px;
   height: 400px;
 }
