@@ -5,7 +5,7 @@ body {
   height: 480px;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
-
+  margin-top:5%;
 }
 
 
@@ -40,7 +40,7 @@ aside{
  padding: 15px 0px 15px 0px;
 }
 
-.content {
+nav {
   border-top:3px solid white;
   width: 355px;
   background-color: #EDF0EE;
@@ -51,6 +51,7 @@ aside{
 
 .list{
   overflow: scroll;
+  overflow-x: hidden:
   width:375px;
   height: 400px;
 }
@@ -65,6 +66,10 @@ aside{
 .reroute {
   background-color: #e57c04;
   font-style:oblique;
+}
+
+.reroute h5 {
+  padding-top:15px;
 }
 
 .noservice h2 {
