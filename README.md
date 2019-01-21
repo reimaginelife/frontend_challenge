@@ -1,2 +1,4 @@
 # frontend_challenge
-Practice for organizing and using grid layout
+First prototype
+Applied lessons learnd in Bloc to create a functional application with scroll
+Learned how to organize various elements 
